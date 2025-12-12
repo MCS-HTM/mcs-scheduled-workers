@@ -44,7 +44,7 @@ BEGIN
     (
         JobName            NVARCHAR(100)    NOT NULL,
         ItemKey            NVARCHAR(200)    NOT NULL,
-        ProcessedUtc       DATETIME2(0)     NOT NULL CONSTRAINT DF_ProcessedItems_ProcessedUtc DEFAULT (SYSUTCDATATIME()),
+        ProcessedUtc       DATETIME2(0)     NOT NULL CONSTRAINT DF_ProcessedItems_ProcessedUtc DEFAULT (SYSUTCDATETIME()),
         RunId              UNIQUEIDENTIFIER NULL,
         CONSTRAINT PK_ProcessedItems PRIMARY KEY (JobName, ItemKey)
     );
