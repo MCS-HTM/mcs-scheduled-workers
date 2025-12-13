@@ -1,0 +1,8 @@
+node_modules
+.git
+**/.env
+**/*.log
+**/local.settings.json
+**/.vscode
+**/.idea
+deploy.zip

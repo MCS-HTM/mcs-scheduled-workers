@@ -1,8 +1,10 @@
 const sql = require('mssql');
-const { ManagedIdentityCredential } = require('@azure/identity');
+const { DefaultAzureCredential } = require('@azure/identity');
 
 const SQL_SCOPE = 'https://database.windows.net/.default';
-const credential = new ManagedIdentityCredential();
+const credential = new DefaultAzureCredential({
+  managedIdentityClientId: process.env.AZURE_CLIENT_ID,
+});
 
 let poolPromise;
 
@@ -61,6 +63,9 @@ async function getPool() {
     return poolPromise;
   }
 
+  // Validate environment variables before attempting to acquire a token
+  getConfig('env-check');
+
   poolPromise = (async () => {
     const accessToken = await getAccessToken();
     const pool = await new sql.ConnectionPool(getConfig(accessToken)).connect();
@@ -94,4 +99,6 @@ async function execute(query, params = []) {
 module.exports = {
   sql,
   execute,
+  getPool,
+  getSqlPool: getPool,
 };
