@@ -1,0 +1,688 @@
+{
+  "ruleSetName": "PV",
+  "ruleSetVersion": "v1",
+  "generatedFrom": "GoAuditScores.xlsx",
+  "answerNormalization": {
+    "trim": true,
+    "caseInsensitive": true,
+    "emptyIsNull": true
+  },
+  "rules": [
+    {
+      "questionKey": "83",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q1 | Have the rail mounting brackets been fixed to a suitable structural member (not tile battens or sarking board)? (PV7)"
+      }
+    },
+    {
+      "questionKey": "93",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q1 | Have the rail mounting brackets been fixed to a suitable structural member (not tile battens or sarking board)? (PV7)"
+      }
+    },
+    {
+      "questionKey": "84",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q2 | Have the rail mounting brackets been installed so as not to displace tiles/slates causing excessive gaps? (PV7)"
+      }
+    },
+    {
+      "questionKey": "94",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q2 | Have the rail mounting brackets been installed so as not to displace tiles/slates causing excessive gaps? (PV7)"
+      }
+    },
+    {
+      "questionKey": "16",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7)"
+      }
+    },
+    {
+      "questionKey": "34",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7)"
+      }
+    },
+    {
+      "questionKey": "72",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7)"
+      }
+    },
+    {
+      "questionKey": "95",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7)"
+      }
+    },
+    {
+      "questionKey": "36",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q4 | Have flat roof / ground-mounted systems been installed per manufacturer’s instructions (incl. ballast)? (PV7)"
+      }
+    },
+    {
+      "questionKey": "73",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV7",
+        "message": "Roof Installation – Mechanical | Q4 | Have flat roof / ground-mounted systems been installed per manufacturer’s instructions (incl. ballast)? (PV7)"
+      }
+    },
+    {
+      "questionKey": "17",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8)"
+      }
+    },
+    {
+      "questionKey": "40",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8)"
+      }
+    },
+    {
+      "questionKey": "66",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8)"
+      }
+    },
+    {
+      "questionKey": "96",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8)"
+      }
+    },
+    {
+      "questionKey": "19",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "67",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "97",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "41",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "92",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q3 | Are DC cables brought through underlay felt as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "98",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q3 | Are DC cables brought through underlay felt as per IET requirements? (PV8)"
+      }
+    },
+    {
+      "questionKey": "18",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8)"
+      }
+    },
+    {
+      "questionKey": "37",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8)"
+      }
+    },
+    {
+      "questionKey": "68",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8)"
+      }
+    },
+    {
+      "questionKey": "99",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8)"
+      }
+    },
+    {
+      "questionKey": "20",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9)"
+      }
+    },
+    {
+      "questionKey": "42",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9)"
+      }
+    },
+    {
+      "questionKey": "69",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9)"
+      }
+    },
+    {
+      "questionKey": "100",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9)"
+      }
+    },
+    {
+      "questionKey": "23",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "44",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "75",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "101",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "22",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "43",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "79",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "102",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10)"
+      }
+    },
+    {
+      "questionKey": "80",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV11",
+        "message": "System Design (AC) | Q1 | Is the Solar PV system on its own designated and correctly labelled circuit? (PV11)"
+      }
+    },
+    {
+      "questionKey": "103",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV11",
+        "message": "System Design (AC) | Q1 | Is the Solar PV system on its own designated and correctly labelled circuit? (PV11)"
+      }
+    },
+    {
+      "questionKey": "48",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV16",
+        "message": "System Design (AC) | Q2 | Has a schematic diagram been fixed at the point of interconnection? (PV16)"
+      }
+    },
+    {
+      "questionKey": "104",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV16",
+        "message": "System Design (AC) | Q2 | Has a schematic diagram been fixed at the point of interconnection? (PV16)"
+      }
+    },
+    {
+      "questionKey": "64",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV16",
+        "message": "System Design (AC) | Q3 | Has the main AC isolation point been clearly identified? (PV16)"
+      }
+    },
+    {
+      "questionKey": "105",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV16",
+        "message": "System Design (AC) | Q3 | Has the main AC isolation point been clearly identified? (PV16)"
+      }
+    },
+    {
+      "questionKey": "63",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "PV16",
+        "message": "System Design (AC) | Q4 | Are warning notices for alternative supplies in place at origin, meter position, and consumer unit? (PV16)"
+      }
+    }
+  ],
+  "ignoreQuestionKeys": [
+    "7",
+    "88",
+    "91"
+  ],
+  "scoring": {
+    "outcomeRules": [
+      {
+        "when": {
+          "majorCountGte": 1
+        },
+        "outcome": "Fail"
+      },
+      {
+        "when": {
+          "minorCountGte": 1
+        },
+        "outcome": "Refer"
+      },
+      {
+        "when": {
+          "always": true
+        },
+        "outcome": "Pass"
+      }
+    ],
+    "scoreValue": {
+      "type": "text",
+      "from": "outcome"
+    }
+  }
+}

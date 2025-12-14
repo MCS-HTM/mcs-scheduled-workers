@@ -1,0 +1,1051 @@
+{
+  "ruleSetName": "HeatPump",
+  "ruleSetVersion": "v1",
+  "generatedFrom": "GoAuditScores.xlsx",
+  "answerNormalization": {
+    "trim": true,
+    "caseInsensitive": true,
+    "emptyIsNull": true
+  },
+  "rules": [
+    {
+      "questionKey": "426",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q1 | Is the heat pump level? (HP6)"
+      }
+    },
+    {
+      "questionKey": "57",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6)"
+      }
+    },
+    {
+      "questionKey": "251",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6)"
+      }
+    },
+    {
+      "questionKey": "530",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6)"
+      }
+    },
+    {
+      "questionKey": "427",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6)"
+      }
+    },
+    {
+      "questionKey": "252",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP6",
+        "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6)"
+      }
+    },
+    {
+      "questionKey": "432",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP8",
+        "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8)"
+      }
+    },
+    {
+      "questionKey": "257",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP8",
+        "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8)"
+      }
+    },
+    {
+      "questionKey": "62",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7)"
+      }
+    },
+    {
+      "questionKey": "431",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7)"
+      }
+    },
+    {
+      "questionKey": "256",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7)"
+      }
+    },
+    {
+      "questionKey": "448",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed?"
+      }
+    },
+    {
+      "questionKey": "273",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed?"
+      }
+    },
+    {
+      "questionKey": "524",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)?"
+      }
+    },
+    {
+      "questionKey": "525",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)?"
+      }
+    },
+    {
+      "questionKey": "526",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)?"
+      }
+    },
+    {
+      "questionKey": "449",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework?"
+      }
+    },
+    {
+      "questionKey": "274",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework?"
+      }
+    },
+    {
+      "questionKey": "466",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally?"
+      }
+    },
+    {
+      "questionKey": "292",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally?"
+      }
+    },
+    {
+      "questionKey": "465",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric?"
+      }
+    },
+    {
+      "questionKey": "291",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric?"
+      }
+    },
+    {
+      "questionKey": "450",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)?"
+      }
+    },
+    {
+      "questionKey": "275",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)?"
+      }
+    },
+    {
+      "questionKey": "468",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress?"
+      }
+    },
+    {
+      "questionKey": "294",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress?"
+      }
+    },
+    {
+      "questionKey": "527",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q8 | New system: has any pipe insulation been applied per Doc L?"
+      }
+    },
+    {
+      "questionKey": "461",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied?"
+      }
+    },
+    {
+      "questionKey": "286",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied?"
+      }
+    },
+    {
+      "questionKey": "462",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated?"
+      }
+    },
+    {
+      "questionKey": "287",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated?"
+      }
+    },
+    {
+      "questionKey": "528",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q11 | Existing system: is insulation continuous on all new pipes?"
+      }
+    },
+    {
+      "questionKey": "454",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q12 | Is newly installed pipework straight and true?"
+      }
+    },
+    {
+      "questionKey": "279",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q12 | Is newly installed pipework straight and true?"
+      }
+    },
+    {
+      "questionKey": "456",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q13 | Are electrical cables sensibly routed and supported?"
+      }
+    },
+    {
+      "questionKey": "281",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q13 | Are electrical cables sensibly routed and supported?"
+      }
+    },
+    {
+      "questionKey": "74",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed?"
+      }
+    },
+    {
+      "questionKey": "457",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed?"
+      }
+    },
+    {
+      "questionKey": "282",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed?"
+      }
+    },
+    {
+      "questionKey": "458",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q15 | Is the heat pump circuit labelled and MCB correctly sized?"
+      }
+    },
+    {
+      "questionKey": "283",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Pipework, Insulation & Fabric | Q15 | Is the heat pump circuit labelled and MCB correctly sized?"
+      }
+    },
+    {
+      "questionKey": "509",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe?"
+      }
+    },
+    {
+      "questionKey": "344",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe?"
+      }
+    },
+    {
+      "questionKey": "514",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible?"
+      }
+    },
+    {
+      "questionKey": "531",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible?"
+      }
+    },
+    {
+      "questionKey": "349",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible?"
+      }
+    },
+    {
+      "questionKey": "508",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2?"
+      }
+    },
+    {
+      "questionKey": "532",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2?"
+      }
+    },
+    {
+      "questionKey": "343",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2?"
+      }
+    },
+    {
+      "questionKey": "507",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q4 | Is the D1 pipe <600mm from T&P outlet to tundish?"
+      }
+    },
+    {
+      "questionKey": "516",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base?"
+      }
+    },
+    {
+      "questionKey": "351",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base?"
+      }
+    },
+    {
+      "questionKey": "510",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic?"
+      }
+    },
+    {
+      "questionKey": "533",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic?"
+      }
+    },
+    {
+      "questionKey": "345",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic?"
+      }
+    },
+    {
+      "questionKey": "517",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible?"
+      }
+    },
+    {
+      "questionKey": "352",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible?"
+      }
+    },
+    {
+      "questionKey": "515",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible?"
+      }
+    },
+    {
+      "questionKey": "350",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible?"
+      }
+    },
+    {
+      "questionKey": "513",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q9 | Are thermostatic controls present?"
+      }
+    },
+    {
+      "questionKey": "348",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q9 | Are thermostatic controls present?"
+      }
+    },
+    {
+      "questionKey": "511",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size?"
+      }
+    },
+    {
+      "questionKey": "346",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size?"
+      }
+    },
+    {
+      "questionKey": "520",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant?"
+      }
+    },
+    {
+      "questionKey": "393",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant?"
+      }
+    },
+    {
+      "questionKey": "519",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe?"
+      }
+    },
+    {
+      "questionKey": "392",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": null,
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe?"
+      }
+    }
+  ],
+  "ignoreQuestionKeys": [
+    "249",
+    "342",
+    "395",
+    "424",
+    "523",
+    "529"
+  ],
+  "scoring": {
+    "outcomeRules": [
+      {
+        "when": {
+          "majorCountGte": 1
+        },
+        "outcome": "Fail"
+      },
+      {
+        "when": {
+          "minorCountGte": 1
+        },
+        "outcome": "Refer"
+      },
+      {
+        "when": {
+          "always": true
+        },
+        "outcome": "Pass"
+      }
+    ],
+    "scoreValue": {
+      "type": "text",
+      "from": "outcome"
+    }
+  }
+}

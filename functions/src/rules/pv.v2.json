@@ -1,0 +1,688 @@
+{
+  "ruleSetName": "PV",
+  "ruleSetVersion": "v2",
+  "generatedFrom": "GoAuditScores.xlsx",
+  "answerNormalization": {
+    "trim": true,
+    "caseInsensitive": true,
+    "emptyIsNull": true
+  },
+  "rules": [
+    {
+      "questionKey": "16",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "17",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "18",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "19",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "20",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "22",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "23",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "34",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "36",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q4 | Have flat roof / ground-mounted systems been installed per manufacturer’s instructions (incl. ballast)? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "37",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "40",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "41",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "42",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "43",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "44",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "48",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV16",
+        "message": "System Design (AC) | Q2 | Has a schematic diagram been fixed at the point of interconnection? (PV16) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "63",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV16",
+        "message": "System Design (AC) | Q4 | Are warning notices for alternative supplies in place at origin, meter position, and consumer unit? (PV16) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "64",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV16",
+        "message": "System Design (AC) | Q3 | Has the main AC isolation point been clearly identified? (PV16) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "66",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "67",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "68",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "69",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "72",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "73",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q4 | Have flat roof / ground-mounted systems been installed per manufacturer’s instructions (incl. ballast)? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "75",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "79",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "80",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV11",
+        "message": "System Design (AC) | Q1 | Is the Solar PV system on its own designated and correctly labelled circuit? (PV11) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "83",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1|PV7",
+        "message": "Roof Installation – Mechanical | Q1 | Have the rail mounting brackets been fixed to a suitable structural member (not tile battens or sarking board)? (PV7) | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "84",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q2 | Have the rail mounting brackets been installed so as not to displace tiles/slates causing excessive gaps? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "92",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q3 | Are DC cables brought through underlay felt as per IET requirements? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "93",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1|PV7",
+        "message": "Roof Installation – Mechanical | Q1 | Have the rail mounting brackets been fixed to a suitable structural member (not tile battens or sarking board)? (PV7) | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "94",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q2 | Have the rail mounting brackets been installed so as not to displace tiles/slates causing excessive gaps? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "95",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV7",
+        "message": "Roof Installation – Mechanical | Q3 | Have tiles / double-lapped slates had flashing applied? (PV7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "96",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q1 | Have the DC cables been labelled as such? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "97",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q2 | Are DC cables supported and routed safely as per IET requirements? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "98",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV8",
+        "message": "Roof Installation – DC | Q3 | Are DC cables brought through underlay felt as per IET requirements? (PV8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "99",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV8",
+        "message": "Roof Installation – DC | Q4 | Are the DC/string connectors compatible? (PV8) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "100",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV9",
+        "message": "Roof Installation – DC | Q5 | Are DC isolators securely fixed, labelled, and cables correctly glanded? (PV9) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "101",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q1 | Do the clearances meet manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "102",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV10",
+        "message": "Inverter | Q2 | Is the inverter securely mounted per manufacturer’s requirements? (PV10) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "103",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|PV11",
+        "message": "System Design (AC) | Q1 | Is the Solar PV system on its own designated and correctly labelled circuit? (PV11) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "104",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV16",
+        "message": "System Design (AC) | Q2 | Has a schematic diagram been fixed at the point of interconnection? (PV16) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "105",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|PV16",
+        "message": "System Design (AC) | Q3 | Has the main AC isolation point been clearly identified? (PV16) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    }
+  ],
+  "ignoreQuestionKeys": [
+    "7",
+    "88",
+    "91"
+  ],
+  "scoring": {
+    "outcomeRules": [
+      {
+        "when": {
+          "majorCountGte": 1
+        },
+        "outcome": "Fail"
+      },
+      {
+        "when": {
+          "minorCountGte": 1
+        },
+        "outcome": "Refer"
+      },
+      {
+        "when": {
+          "always": true
+        },
+        "outcome": "Pass"
+      }
+    ],
+    "scoreValue": {
+      "type": "text",
+      "from": "outcome"
+    }
+  }
+}

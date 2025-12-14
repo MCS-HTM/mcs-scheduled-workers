@@ -1,4 +1,4 @@
--- M0: Grant ACA/User Assigned Managed Identity access to write run history and manage watermark/ledger
+-- M2: Grant Managed Identity access for scoring outputs (findings and scores)
 DECLARE @ManagedIdentityName SYSNAME = N'id-mcs-scheduled-workers-aca-prod-uks';
 DECLARE @UserName SYSNAME = @ManagedIdentityName;
 DECLARE @UserNameEscaped NVARCHAR(300) = REPLACE(@UserName, ']', ']]'); -- escape bracket if present
@@ -10,12 +10,11 @@ BEGIN
     EXEC (@sql);
 END
 
--- Grant minimal permissions for M0
+-- Grant additional permissions for M2 scoring outputs
 DECLARE @grantSql NVARCHAR(MAX) =
 N'
-GRANT SELECT, INSERT, UPDATE ON dbo.JobRunHistory TO [' + @UserNameEscaped + N'];
-GRANT SELECT, INSERT, UPDATE ON dbo.JobWatermark  TO [' + @UserNameEscaped + N'];
-GRANT SELECT, INSERT            ON dbo.ProcessedItems TO [' + @UserNameEscaped + N'];
+GRANT SELECT, INSERT              ON dbo.GoAuditsFindings TO [' + @UserNameEscaped + N'];
+GRANT SELECT, INSERT, UPDATE     ON dbo.GoAuditsScores   TO [' + @UserNameEscaped + N'];
 ';
 
 EXEC (@grantSql);

@@ -1,0 +1,1051 @@
+{
+  "ruleSetName": "HeatPump",
+  "ruleSetVersion": "v2",
+  "generatedFrom": "GoAuditScores.xlsx",
+  "answerNormalization": {
+    "trim": true,
+    "caseInsensitive": true,
+    "emptyIsNull": true
+  },
+  "rules": [
+    {
+      "questionKey": "57",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "62",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "74",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "251",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "252",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP6",
+        "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "256",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "257",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP8",
+        "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "273",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "274",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "275",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "279",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q12 | Is newly installed pipework straight and true? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "281",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q13 | Are electrical cables sensibly routed and supported? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "282",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "283",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q15 | Is the heat pump circuit labelled and MCB correctly sized? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "286",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "287",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "291",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "292",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "294",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "343",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "344",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "345",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "346",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "348",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q9 | Are thermostatic controls present? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "349",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "350",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "351",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "352",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible? | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "392",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "393",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "426",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Q1 | Is the heat pump level? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "427",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP6",
+        "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "431",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP7",
+        "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "432",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP8",
+        "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "448",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "449",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "450",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "454",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q12 | Is newly installed pipework straight and true? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "456",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q13 | Are electrical cables sensibly routed and supported? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "457",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q14 | Are cable tails insulated and correctly enclosed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "458",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q15 | Is the heat pump circuit labelled and MCB correctly sized? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "461",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "462",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "465",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "466",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "468",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "507",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q4 | Is the D1 pipe <600mm from T&P outlet to tundish? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "508",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "509",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "510",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "511",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "513",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q9 | Are thermostatic controls present? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "514",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "515",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "516",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "517",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible? | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)"
+      }
+    },
+    {
+      "questionKey": "519",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "CAT1",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)"
+      }
+    },
+    {
+      "questionKey": "520",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "524",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "525",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "526",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "527",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipework, Insulation & Fabric | Q8 | New system: has any pipe insulation been applied per Doc L? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "528",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Q11 | Existing system: is insulation continuous on all new pipes? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "530",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    },
+    {
+      "questionKey": "531",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "532",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)"
+      }
+    },
+    {
+      "questionKey": "533",
+      "enabled": true,
+      "nonCompliantWhen": {
+        "op": "equals",
+        "value": "No",
+        "caseInsensitive": true,
+        "trim": true
+      },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)"
+      }
+    }
+  ],
+  "ignoreQuestionKeys": [
+    "249",
+    "342",
+    "395",
+    "424",
+    "523",
+    "529"
+  ],
+  "scoring": {
+    "outcomeRules": [
+      {
+        "when": {
+          "majorCountGte": 1
+        },
+        "outcome": "Fail"
+      },
+      {
+        "when": {
+          "minorCountGte": 1
+        },
+        "outcome": "Refer"
+      },
+      {
+        "when": {
+          "always": true
+        },
+        "outcome": "Pass"
+      }
+    ],
+    "scoreValue": {
+      "type": "text",
+      "from": "outcome"
+    }
+  }
+}

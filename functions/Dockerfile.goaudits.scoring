@@ -1,0 +1,11 @@
+FROM node:20-slim
+
+WORKDIR /app
+
+COPY package.json package-lock.json ./
+RUN npm ci --omit=dev
+
+COPY src ./src
+COPY src/rules ./src/rules
+
+CMD ["node", "src/jobs/goaudits-scoring.js"]

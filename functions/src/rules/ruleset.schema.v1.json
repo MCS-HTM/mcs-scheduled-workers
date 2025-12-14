@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mcs-scheduled-workers/ruleset.schema.v1.json",
+  "title": "GoAudits Scoring Rule Set (v1)",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["ruleSetName", "ruleSetVersion", "rules", "scoring"],
+  "properties": {
+    "ruleSetName": {
+      "type": "string"
+    },
+    "ruleSetVersion": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": true
+    },
+    "answerNormalization": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "trim": { "type": "boolean" },
+        "caseInsensitive": { "type": "boolean" },
+        "emptyIsNull": { "type": "boolean" }
+      }
+    },
+    "rules": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["ruleId", "questionKey", "nonCompliantWhen", "finding"],
+        "properties": {
+          "ruleId": { "type": "string" },
+          "questionKey": {
+            "type": "string",
+            "maxLength": 256
+          },
+          "enabled": { "type": "boolean" },
+          "notes": { "type": "string" },
+          "nonCompliantWhen": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["op"],
+            "properties": {
+              "op": {
+                "type": "string",
+                "enum": ["equals", "in", "missing"]
+              },
+              "value": { "type": "string" },
+              "values": {
+                "type": "array",
+                "items": { "type": "string" },
+                "minItems": 1
+              },
+              "caseInsensitive": { "type": "boolean" },
+              "trim": { "type": "boolean" }
+            },
+            "allOf": [
+              {
+                "if": { "properties": { "op": { "const": "equals" } } },
+                "then": { "required": ["value"] }
+              },
+              {
+                "if": { "properties": { "op": { "const": "in" } } },
+                "then": { "required": ["values"] }
+              }
+            ]
+          },
+          "finding": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["severity", "message"],
+            "properties": {
+              "severity": {
+                "type": "string",
+                "enum": ["Major", "Minor"]
+              },
+              "message": { "type": "string" },
+              "code": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "scoring": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["outcomeRules", "scoreValue"],
+      "properties": {
+        "outcomeRules": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["outcome", "when"],
+            "properties": {
+              "outcome": { "type": "string" },
+              "when": {
+                "type": "object",
+                "additionalProperties": false,
+                "properties": {
+                  "majorCountGte": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "minorCountGte": {
+                    "type": "integer",
+                    "minimum": 0
+                  },
+                  "always": { "type": "boolean" }
+                }
+              }
+            }
+          }
+        },
+        "scoreValue": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["type", "from"],
+          "properties": {
+            "type": {
+              "type": "string",
+              "enum": ["text", "numeric"]
+            },
+            "from": {
+              "type": "string",
+              "enum": ["outcome", "fixed"]
+            },
+            "fixedValue": {
+              "oneOf": [{ "type": "string" }, { "type": "number" }]
+            }
+          },
+          "allOf": [
+            {
+              "if": { "properties": { "from": { "const": "fixed" } } },
+              "then": { "required": ["fixedValue"] }
+            }
+          ]
+        }
+      }
+    }
+  }
+}
