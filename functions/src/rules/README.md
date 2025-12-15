@@ -11,6 +11,10 @@ Adding a new version:
 2. Update `ruleSetVersion` inside the new file.
 3. Add/change rules; leave older versions untouched to keep backward compatibility.
 
+Current versions in production:
+- PV: `v2`
+- HeatPump: `v3` (includes the double-negative fix for question keys 524/525/526)
+
 Example rule snippet (illustrative; not present in the shipped files):
 ```json
 {

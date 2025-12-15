@@ -11,6 +11,7 @@
 4) **Behaviour (what the jobs do)**
    - `05-goaudits-ingestion-behaviour.md` – M1 ingestion (getauditsummary).
    - `07-goaudits-enrichment-behaviour.md` – M1.5 enrichment (getauditdetailsbyid).
+   - `09-goaudits-scoring-behaviour.md` – M2 scoring outputs and reporting view.
 5) **Operations**
    - `04-observability-and-proof.md` – SQL and Log Analytics proof queries.
    - `06-troubleshooting.md` – common failure modes and fixes.
