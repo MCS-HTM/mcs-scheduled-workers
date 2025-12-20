@@ -45,6 +45,15 @@ function loadRules(ruleset, version) {
   return json;
 }
 
+function extractRulesetQuestionKeys(rulesDoc) {
+  const keys = new Set();
+  for (const rule of rulesDoc.rules ?? []) {
+    for (const k of rule.questionKeysAny ?? []) keys.add(Number(k));
+  }
+  for (const k of rulesDoc.ignoreQuestionKeys ?? []) keys.add(Number(k));
+  return keys;
+}
+
 function normalizeAnswer(value, options = {}) {
   const { trim = false, caseInsensitive = false, emptyIsNull = false } = options;
 
@@ -249,6 +258,20 @@ async function processReport(pool, reportId, ruleset, version, rulesDoc, jobRunI
 
   try {
     const answerMap = await loadAnswers(pool, reportId);
+    const rulesetKeys = extractRulesetQuestionKeys(rulesDoc);
+    let eligible = false;
+    for (const key of answerMap.keys()) {
+      const keyNumber = Number(key);
+      if (!Number.isNaN(keyNumber) && rulesetKeys.has(keyNumber)) {
+        eligible = true;
+        break;
+      }
+    }
+    if (!eligible) {
+      await transaction.commit();
+      counts.skippedNotEligible += 1;
+      return;
+    }
     const defaultNorm = rulesDoc.answerNormalization || {};
     const findings = [];
     let majorCount = 0;
@@ -335,6 +358,7 @@ async function main() {
     selected: 0,
     processed: 0,
     skipped: 0,
+    skippedNotEligible: 0,
     alreadyProcessed: 0,
     findingsInsertedCount: 0,
     majorCountTotal: 0,
@@ -366,7 +390,7 @@ async function main() {
     }
 
     const completedAtUtc = new Date().toISOString();
-    message = `Selected=${counts.selected} Processed=${counts.processed} Skipped=${counts.skipped} AlreadyProcessed=${counts.alreadyProcessed} FindingsInserted=${counts.findingsInsertedCount} Majors=${counts.majorCountTotal} Minors=${counts.minorCountTotal} Failed=${counts.failedCount}`;
+    message = `Selected=${counts.selected} Processed=${counts.processed} Skipped=${counts.skipped} SkippedNotEligible=${counts.skippedNotEligible} AlreadyProcessed=${counts.alreadyProcessed} FindingsInserted=${counts.findingsInsertedCount} Majors=${counts.majorCountTotal} Minors=${counts.minorCountTotal} Failed=${counts.failedCount}`;
     await updateJobRun(pool, jobRunId, status, message);
 
     console.log(
