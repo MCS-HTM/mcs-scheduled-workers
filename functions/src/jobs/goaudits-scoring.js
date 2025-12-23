@@ -121,12 +121,20 @@ function evaluateRule(rule, answerMap, defaultNorm) {
     return null;
   }
 
+  const severity = rule.finding.severity;
+  const majorNonCompliantText =
+    severity === 'Major' ? rule.finding?.majorNonCompliantText ?? null : null;
+  const minorNonCompliantText =
+    severity === 'Minor' ? rule.finding?.minorNonCompliantText ?? null : null;
+
   return {
     questionKey: rule.questionKey,
     answerValue: answerRaw === undefined ? null : answerRaw,
-    severity: rule.finding.severity,
+    severity,
     code: rule.finding.code || null,
     message: rule.finding.message,
+    majorNonCompliantText,
+    minorNonCompliantText,
   };
 }
 
@@ -302,10 +310,12 @@ async function processReport(pool, reportId, ruleset, version, rulesDoc, jobRunI
       req.input('answerValue', sql.NVarChar(sql.MAX), f.answerValue);
       req.input('findingSeverity', sql.NVarChar(10), f.severity);
       req.input('findingCode', sql.NVarChar(50), f.code);
+      req.input('majorNonCompliantText', sql.NVarChar(sql.MAX), f.majorNonCompliantText);
+      req.input('minorNonCompliantText', sql.NVarChar(sql.MAX), f.minorNonCompliantText);
       req.input('jobRunId', sql.UniqueIdentifier, jobRunId);
       try {
         await req.query(
-          'INSERT INTO dbo.GoAuditsFindings (GoAuditsReportId, RuleSetName, RuleSetVersion, QuestionKey, AnswerValue, FindingSeverity, FindingCode, JobRunId) VALUES (@reportId, @ruleSetName, @ruleSetVersion, @questionKey, @answerValue, @findingSeverity, @findingCode, @jobRunId)'
+          'INSERT INTO dbo.GoAuditsFindings (GoAuditsReportId, RuleSetName, RuleSetVersion, QuestionKey, AnswerValue, FindingSeverity, FindingCode, MajorNonCompliantText, MinorNonCompliantText, JobRunId) VALUES (@reportId, @ruleSetName, @ruleSetVersion, @questionKey, @answerValue, @findingSeverity, @findingCode, @majorNonCompliantText, @minorNonCompliantText, @jobRunId)'
         );
         counts.findingsInsertedCount += 1;
       } catch (error) {
