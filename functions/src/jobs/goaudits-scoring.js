@@ -319,7 +319,18 @@ async function processReport(pool, reportId, ruleset, version, rulesDoc, jobRunI
         );
         counts.findingsInsertedCount += 1;
       } catch (error) {
-        if (!(error && (error.number === 2627 || error.number === 2601))) {
+        if (error && (error.number === 2627 || error.number === 2601)) {
+          await req.query(
+            `UPDATE dbo.GoAuditsFindings
+SET
+  MajorNonCompliantText = COALESCE(MajorNonCompliantText, @majorNonCompliantText),
+  MinorNonCompliantText = COALESCE(MinorNonCompliantText, @minorNonCompliantText)
+WHERE GoAuditsReportId = @reportId
+  AND RuleSetName      = @ruleSetName
+  AND RuleSetVersion   = @ruleSetVersion
+  AND QuestionKey      = @questionKey;`
+          );
+        } else {
           throw error;
         }
       }
