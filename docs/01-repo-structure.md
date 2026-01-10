@@ -5,10 +5,11 @@ The working code lives under `functions/` even though the platform now runs on A
 ## Key directories
 - `functions/src/shared/sql.js` – SQL helper using `DefaultAzureCredential` (honours `AZURE_CLIENT_ID` for user-assigned identity). Builds token-based config for SQL using `SQL_SERVER` and `SQL_DATABASE`, with connection pooling and retry-safe lazy initialisation.
 - `functions/src/jobs/aca-heartbeat.js` – ACA heartbeat job. Writes a row to `dbo.JobRunHistory` with `JobName='ACAHeartbeat'` and structured JSON logging.
+- `functions/src/jobs/goaudits-pipeline.js` – unified GoAudits pipeline job. Pulls summary, ingests reports, enriches answers, resolves ruleset (PV/HeatPump), and writes scoring outputs with existing idempotency guards.
 - `functions/src/jobs/goaudits-ingestion.js` – M1 GoAudits ingestion job. Uses Managed Identity for SQL and Key Vault, fetches the bearer token, calls the GoAudits API (`getauditsummary`), enforces watermark/idempotency, writes to `JobRunHistory`, `ProcessedItems`, `GoAuditsReports`, and `JobWatermark`.
 - `functions/src/jobs/goaudits-enrichment.js` – M1.5 GoAudits enrichment job. Selects unenriched reports, calls the details endpoint (`getauditdetailsbyid`) with the full Postman-style body, updates `GoAuditsReports.CertificationNumber`, inserts answers into `GoAuditsReportAnswers`, and marks `ProcessedItems` when answers exist (tracks `certMissingCount`).
 - `functions/Dockerfile` – container image for the heartbeat job (Node 20-slim, `npm ci --omit=dev`, runs `node src/jobs/aca-heartbeat.js`).
-- `functions/Dockerfile.goaudits` – container image for GoAudits ingestion (same base/build flow, runs `node src/jobs/goaudits-ingestion.js`).
+- `functions/Dockerfile.goaudits` – container image for GoAudits pipeline (same base/build flow, runs `node src/jobs/goaudits-pipeline.js`).
 - `functions/Dockerfile.goaudits.enrichment` – container image for GoAudits enrichment (runs `node src/jobs/goaudits-enrichment.js`).
 - `functions/infra/sql/001_m0_tables.sql` – core tables:
   - `dbo.JobWatermark (JobName PK, WatermarkUtc datetime2(0), UpdatedUtc datetime2(0) default SYSUTCDATETIME())`

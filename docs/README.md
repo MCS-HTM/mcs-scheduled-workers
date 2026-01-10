@@ -9,13 +9,14 @@
    - `03-deployment-runbook.md` – build/push images, create/update jobs, schedules, env vars.
    - `08-backfill-runbook.md` – safe backfill steps (rewind watermark, rerun, re-enrich).
 4) **Behaviour (what the jobs do)**
+   - `10-goaudits-pipeline.md` – unified ingestion + enrichment + scoring pipeline (GoAuditsPipeline).
    - `05-goaudits-ingestion-behaviour.md` – M1 ingestion (getauditsummary).
    - `07-goaudits-enrichment-behaviour.md` – M1.5 enrichment (getauditdetailsbyid).
-   - `09-goaudits-scoring-behaviour.md` – M2 scoring outputs and reporting view.
+   - `09-goaudits-scoring-behaviour.md` – M2 scoring outputs, non-compliance text, reporting view, backfill.
 5) **Operations**
    - `04-observability-and-proof.md` – SQL and Log Analytics proof queries.
    - `06-troubleshooting.md` – common failure modes and fixes.
 
 Steady-state schedules:
-- Ingestion: cron `0 * * * *` (top of the hour).
-- Enrichment: cron `15 * * * *` (quarter past).
+- Pipeline: cron `0 * * * *` (replaces ingestion/enrichment in steady state).
+- Ingestion/Enrichment: keep disabled for rollback.

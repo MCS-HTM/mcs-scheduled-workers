@@ -7,4 +7,4 @@ RUN npm ci --omit=dev
 
 COPY . .
 
-CMD ["node", "src/jobs/goaudits-ingestion.js"]
+CMD ["node", "src/jobs/goaudits-pipeline.js"]
