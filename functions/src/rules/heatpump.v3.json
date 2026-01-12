@@ -22,7 +22,7 @@
         "code": "MINOR_MAY|HP6",
         "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Heat pump on a surface that meets manufacturer requirements not compliant"
+        "minorNonCompliantText": "Heat Pump is not on a surface that meets manufacturer requirements"
       }
     },
     {
@@ -39,7 +39,7 @@
         "code": "MINOR_WONT|HP7",
         "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Isolator easily accessible and not correctly positioned"
+        "minorNonCompliantText": "Isolator not easily accessible and position meet manufacturer requirements"
       }
     },
     {
@@ -73,7 +73,7 @@
         "code": "MINOR_MAY|HP6",
         "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Heat pump on a surface that meets manufacturer requirements not compliant"
+        "minorNonCompliantText": "Heat Pump is not on a surface that meets manufacturer requirements"
       }
     },
     {
@@ -90,7 +90,7 @@
         "code": "MINOR_WONT|HP6",
         "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Clearances do not meet manufacturer’s instructions"
+        "minorNonCompliantText": "Clearances do not meet manufacturer's instructions"
       }
     },
     {
@@ -107,7 +107,7 @@
         "code": "MINOR_WONT|HP7",
         "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Isolator easily accessible and not correctly positioned"
+        "minorNonCompliantText": "Isolator not easily accessible and position meet manufacturer requirements"
       }
     },
     {
@@ -124,7 +124,7 @@
         "code": "MINOR_WONT|HP8",
         "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "There suitable condensate management arrangements not compliant"
+        "minorNonCompliantText": "No suitable condensate management arrangements"
       }
     },
     {
@@ -141,7 +141,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Pipework penetrations through the building fabric not suitably sealed"
+        "minorNonCompliantText": "Pipework penetrations through the building fabric have not been suitably sealed"
       }
     },
     {
@@ -158,7 +158,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Insulation not continuous on all external pipework"
+        "minorNonCompliantText": "Insulation is not continuous/sealed on all external pipework, and there are gaps around valves or strainers"
       }
     },
     {
@@ -175,7 +175,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "UV-resistant insulation used not compliant"
+        "minorNonCompliantText": "UV-resistant insulation has not been used on external pipework, nor has type-O insulation been coated with a terpolymer resin paint"
       }
     },
     {
@@ -260,7 +260,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "New system: Continuous insulation not applied"
+        "minorNonCompliantText": "Electrical cables have not been sensibly routed and supported / clipped along their route"
       }
     },
     {
@@ -276,7 +276,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "Existing system: Any new accessible pipes not insulated",
+        "majorNonCompliantText": "Cable ‘tails’ have not been insulated – outer sheath of insulation not fully enclosed into glands/ enclosures",
         "minorNonCompliantText": null
       }
     },
@@ -294,7 +294,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Insulation not continuous through the building fabric"
+        "minorNonCompliantText": "Insulation is not continuous through the building fabric and into the building"
       }
     },
     {
@@ -311,7 +311,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Primary pipework not separated from fabric / brackets externally"
+        "minorNonCompliantText": "Primary pipework is not separated from metallic brackets / components and building fabric externally"
       }
     },
     {
@@ -328,7 +328,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "External insulation not sealed to prevent water ingress"
+        "minorNonCompliantText": "No pipe insulation has been applied according to the requirements of Doc L"
       }
     },
     {
@@ -401,7 +401,7 @@
     },
     {
       "questionKey": "348",
-      "enabled": true,
+      "enabled": false,
       "nonCompliantWhen": {
         "op": "equals",
         "value": "No",
@@ -532,7 +532,7 @@
         "code": "MINOR_MAY|HP6",
         "message": "Heat Pump Installation | Q1 | Is the heat pump level? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Heat pump not level"
+        "minorNonCompliantText": "Heat Pump not level"
       }
     },
     {
@@ -549,7 +549,7 @@
         "code": "MINOR_WONT|HP6",
         "message": "Heat Pump Installation | Q3 | Do the clearances meet manufacturer’s instructions? (HP6) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Clearances do not meet manufacturer’s instructions"
+        "minorNonCompliantText": "Clearances do not meet manufacturer's instructions"
       }
     },
     {
@@ -566,7 +566,7 @@
         "code": "MINOR_WONT|HP7",
         "message": "Heat Pump Installation | Q5 | Is the isolator easily accessible and correctly positioned? (HP7) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Isolator easily accessible and not correctly positioned"
+        "minorNonCompliantText": "Isolator not easily accessible and position meet manufacturer requirements"
       }
     },
     {
@@ -583,7 +583,7 @@
         "code": "MINOR_WONT|HP8",
         "message": "Heat Pump Installation | Q4 | Are there suitable condensate management arrangements? (HP8) | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "There suitable condensate management arrangements not compliant"
+        "minorNonCompliantText": "No suitable condensate management arrangements"
       }
     },
     {
@@ -600,7 +600,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q1 | Have pipework penetrations through the building fabric been suitably sealed? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Pipework penetrations through the building fabric not suitably sealed"
+        "minorNonCompliantText": "Pipework penetrations through the building fabric have not been suitably sealed"
       }
     },
     {
@@ -617,7 +617,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q3 | Is insulation continuous on all external pipework? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Insulation not continuous on all external pipework"
+        "minorNonCompliantText": "Insulation is not continuous/sealed on all external pipework, and there are gaps around valves or strainers"
       }
     },
     {
@@ -634,7 +634,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q6 | Is UV-resistant insulation used (or Type-O coated)? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "UV-resistant insulation used not compliant"
+        "minorNonCompliantText": "UV-resistant insulation has not been used on external pipework, nor has type-O insulation been coated with a terpolymer resin paint"
       }
     },
     {
@@ -719,7 +719,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q9 | New system: has continuous insulation been applied? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "New system: Continuous insulation not applied"
+        "minorNonCompliantText": "Electrical cables have not been sensibly routed and supported / clipped along their route"
       }
     },
     {
@@ -735,7 +735,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q10 | Existing system: have any new accessible pipes been insulated? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "Existing system: Any new accessible pipes not insulated",
+        "majorNonCompliantText": "Cable ‘tails’ have not been insulated – outer sheath of insulation not fully enclosed into glands/ enclosures",
         "minorNonCompliantText": null
       }
     },
@@ -753,7 +753,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q5 | Is insulation continuous through the building fabric? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Insulation not continuous through the building fabric"
+        "minorNonCompliantText": "Insulation is not continuous through the building fabric and into the building"
       }
     },
     {
@@ -770,7 +770,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q4 | Is primary pipework separated from fabric / brackets externally? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Primary pipework not separated from fabric / brackets externally"
+        "minorNonCompliantText": "Primary pipework is not separated from metallic brackets / components and building fabric externally"
       }
     },
     {
@@ -787,7 +787,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q7 | Is external insulation sealed to prevent water ingress? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "External insulation not sealed to prevent water ingress"
+        "minorNonCompliantText": "No pipe insulation has been applied according to the requirements of Doc L"
       }
     },
     {
@@ -877,7 +877,7 @@
     },
     {
       "questionKey": "513",
-      "enabled": true,
+      "enabled": false,
       "nonCompliantWhen": {
         "op": "equals",
         "value": "No",
@@ -1007,7 +1007,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "There a gap in external pipe insulation not compliant",
+        "majorNonCompliantText": "Along any given section of the external pipework, there is a gap in the insulation (or no insulation at all) for more than 1 metre in a row",
         "minorNonCompliantText": null
       }
     },
@@ -1024,7 +1024,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "There a gap in external pipe insulation not compliant",
+        "majorNonCompliantText": "Along any given section of the external pipework, there is a gap in the insulation (or no insulation at all) for more than 1 metre in a row",
         "minorNonCompliantText": null
       }
     },
@@ -1041,7 +1041,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q2 | Is there a gap in external pipe insulation (>1m)? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "There a gap in external pipe insulation not compliant",
+        "majorNonCompliantText": "Along any given section of the external pipework, there is a gap in the insulation (or no insulation at all) for more than 1 metre in a row",
         "minorNonCompliantText": null
       }
     },
@@ -1058,7 +1058,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Pipework, Insulation & Fabric | Q8 | New system: has any pipe insulation been applied per Doc L? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "New system: Any pipe insulation not applied per Doc L",
+        "majorNonCompliantText": "Pipe insulation is not continuous on all pipes according to the requirements of Doc L",
         "minorNonCompliantText": null
       }
     },
@@ -1076,7 +1076,7 @@
         "code": "MINOR_MAY",
         "message": "Pipework, Insulation & Fabric | Q11 | Existing system: is insulation continuous on all new pipes? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Existing system: Insulation not continuous on all new pipes"
+        "minorNonCompliantText": "Heat pump circuit not correctly labelled"
       }
     },
     {
@@ -1093,7 +1093,7 @@
         "code": "MINOR_MAY|HP6",
         "message": "Heat Pump Installation | Q2 | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Heat pump on a surface that meets manufacturer requirements not compliant"
+        "minorNonCompliantText": "Heat Pump is not on a surface that meets manufacturer requirements"
       }
     },
     {
