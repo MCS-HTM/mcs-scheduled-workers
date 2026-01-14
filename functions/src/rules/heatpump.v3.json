@@ -344,7 +344,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "A tundish not fitted and visible between D1 and D2",
+        "majorNonCompliantText": "Tundish has not been fitted between D1 & D2 pipes, the tundish is not visible",
         "minorNonCompliantText": null
       }
     },
@@ -362,7 +362,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "There a 300mm drop below tundish and not continuous fall on D2 pipe"
+        "minorNonCompliantText": "There is not a minimum of 300mm vertical drop in the pipework below the tundish and does the D2 pipe fall continuously"
       }
     },
     {
@@ -379,7 +379,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D2 pipe metallic not compliant"
+        "minorNonCompliantText": "D2 pipe is not metallic"
       }
     },
     {
@@ -394,8 +394,8 @@
       "finding": {
         "severity": "Major",
         "code": "MAJOR_PERF",
-        "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "D2 pipe the correct size not compliant",
+          "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
+          "majorNonCompliantText": "D2 pipe, where visible, not the correct size",
         "minorNonCompliantText": null
       }
     },
@@ -429,7 +429,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "Temperature & pressure relief valve not present and visible",
+        "majorNonCompliantText": "Temperature and Pressure relief valve is not present and visible",
         "minorNonCompliantText": null
       }
     },
@@ -447,7 +447,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Composite / combination valve accessible not compliant"
+        "minorNonCompliantText": "Manufacturer’s composite / combination valve not accessible for maintenance or repair"
       }
     },
     {
@@ -463,7 +463,7 @@
         "severity": "Major",
         "code": "CAT1",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)",
-        "majorNonCompliantText": "Cylinder does not stand on a sound and level base",
+        "majorNonCompliantText": "Cylinder not stood on a sound and level base",
         "minorNonCompliantText": null
       }
     },
@@ -481,7 +481,7 @@
         "code": "MINOR_WONT",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible? | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "The warning label not completed and left visible"
+        "minorNonCompliantText": "Warning label has not been completed and left in a visible position"
       }
     },
     {
@@ -497,7 +497,7 @@
         "severity": "Major",
         "code": "CAT1",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)",
-        "majorNonCompliantText": "If non-compliant, is the D2 termination safe not compliant",
+        "majorNonCompliantText": "D2  termination point not safe to persons or property",
         "minorNonCompliantText": null
       }
     },
@@ -515,7 +515,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D2 termination compliant not compliant"
+        "minorNonCompliantText": "D2 termination not compliant"
       }
     },
     {
@@ -804,7 +804,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q4 | Is the D1 pipe <600mm from T&P outlet to tundish? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D1 pipe <600mm from T&P outlet to tundish not compliant"
+        "minorNonCompliantText": "D1 pipe is not the correct length (less than 600mm from T&P valve outlet to inlet of tundish)"
       }
     },
     {
@@ -820,7 +820,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "A tundish not fitted and visible between D1 and D2",
+        "majorNonCompliantText": "Tundish has not been fitted between D1 & D2 pipes, the tundish is not visible",
         "minorNonCompliantText": null
       }
     },
@@ -838,7 +838,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q1 | Is there a 300mm drop below tundish and continuous fall on D2 pipe? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "There a 300mm drop below tundish and not continuous fall on D2 pipe"
+        "minorNonCompliantText": "There is not a minimum of 300mm vertical drop in the pipework below the tundish and does the D2 pipe fall continuously"
       }
     },
     {
@@ -855,7 +855,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D2 pipe metallic not compliant"
+        "minorNonCompliantText": "D2 pipe is not metallic"
       }
     },
     {
@@ -871,7 +871,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q10 | Is the D2 pipe the correct size? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "D2 pipe the correct size not compliant",
+        "majorNonCompliantText": "D2 pipe, where visible, not the correct size",
         "minorNonCompliantText": null
       }
     },
@@ -905,7 +905,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "Temperature & pressure relief valve not present and visible",
+        "majorNonCompliantText": "Temperature and Pressure relief valve is not present and visible",
         "minorNonCompliantText": null
       }
     },
@@ -923,7 +923,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q8 | Is the composite / combination valve accessible? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "Composite / combination valve accessible not compliant"
+        "minorNonCompliantText": "Manufacturer’s composite / combination valve not accessible for maintenance or repair"
       }
     },
     {
@@ -939,7 +939,7 @@
         "severity": "Major",
         "code": "CAT1",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q5 | Does the cylinder stand on a sound and level base? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)",
-        "majorNonCompliantText": "Cylinder does not stand on a sound and level base",
+        "majorNonCompliantText": "Cylinder not stood on a sound and level base",
         "minorNonCompliantText": null
       }
     },
@@ -957,7 +957,7 @@
         "code": "MINOR_WONT",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q7 | Has the warning label been completed and left visible? | ScoreBucket: MINOR_WONT | SheetLabel: Minor non-compliance (will not materially affect system performance)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "The warning label not completed and left visible"
+        "minorNonCompliantText": "Warning label has not been completed and left in a visible position"
       }
     },
     {
@@ -973,7 +973,7 @@
         "severity": "Major",
         "code": "CAT1",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q12 | If non-compliant, is the D2 termination safe? | ScoreBucket: CAT1 | SheetLabel: Major non-compliance (risk to health and safety of occupants) (CAT1)",
-        "majorNonCompliantText": "If non-compliant, is the D2 termination safe not compliant",
+        "majorNonCompliantText": "D2  termination point not safe to persons or property",
         "minorNonCompliantText": null
       }
     },
@@ -991,7 +991,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q11 | Is the D2 termination compliant? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D2 termination compliant not compliant"
+        "minorNonCompliantText": "D2 termination not compliant"
       }
     },
     {
@@ -1109,7 +1109,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q2 | Is the temperature & pressure relief valve present and visible? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "Temperature & pressure relief valve not present and visible",
+        "majorNonCompliantText": "Temperature and Pressure relief valve is not present and visible",
         "minorNonCompliantText": null
       }
     },
@@ -1126,7 +1126,7 @@
         "severity": "Major",
         "code": "MAJOR_PERF",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q3 | Is a tundish fitted and visible between D1 and D2? | ScoreBucket: MAJOR_PERF | SheetLabel: Major non-compliance (that will affect system performance)",
-        "majorNonCompliantText": "A tundish not fitted and visible between D1 and D2",
+        "majorNonCompliantText": "Tundish has not been fitted between D1 & D2 pipes, the tundish is not visible",
         "minorNonCompliantText": null
       }
     },
@@ -1144,7 +1144,7 @@
         "code": "MINOR_MAY",
         "message": "Building Regulations – Hot Water Safety (Doc G) | Q6 | Is the D2 pipe metallic? | ScoreBucket: MINOR_MAY | SheetLabel: Minor non-compliance (that may affect system performance over time)",
         "majorNonCompliantText": null,
-        "minorNonCompliantText": "D2 pipe metallic not compliant"
+        "minorNonCompliantText": "D2 pipe is not metallic"
       }
     }
   ],
