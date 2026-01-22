@@ -1146,6 +1146,114 @@
         "majorNonCompliantText": null,
         "minorNonCompliantText": "D2 pipe is not metallic"
       }
+    },
+    {
+      "questionKey": "534",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Is UV-resistant insulation used (or Type-O coated)? | ScoreBucket: MINOR_MAY",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "UV-resistant insulation has not been used on external pipework, nor has type-O insulation been coated with a terpolymer resin paint"
+      }
+    },
+    {
+      "questionKey": "537",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Have pipework penetrations through the building fabric been suitably sealed? | ScoreBucket: MINOR_MAY",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Pipework penetrations through the building fabric have not been suitably sealed"
+      }
+    },
+    {
+      "questionKey": "538",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY",
+        "message": "Pipework, Insulation & Fabric | Is insulation continuous through the building fabric and into the building? | ScoreBucket: MINOR_MAY",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Insulation is not continuous through the building fabric and into the building"
+      }
+    },
+    {
+      "questionKey": "535",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Major",
+        "code": "MAJOR_PERF",
+        "message": "Pipe insulation has not been applied according to the requirements of Doc L",
+        "majorNonCompliantText": "No pipe insulation has been applied according to the requirements of Doc L",
+        "minorNonCompliantText": null
+      }
+    },
+    {
+      "questionKey": "539",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Is the heat pump level? (HP6) | ScoreBucket: MINOR_MAY",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Heat Pump not level"
+      }
+    },
+    {
+      "questionKey": "540",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_MAY|HP6",
+        "message": "Heat Pump Installation | Is the heat pump on a surface that meets manufacturer requirements? (HP6) | ScoreBucket: MINOR_MAY",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Heat Pump is not on a surface that meets manufacturer requirements"
+      }
+    },
+    {
+      "questionKey": "541",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP6",
+        "message": "Heat Pump Installation | Do the clearances meet manufacturer’s instructions? (HP6) | ScoreBucket: MINOR_WONT",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Clearances do not meet manufacturer’s instructions"
+      }
+    },
+    {
+      "questionKey": "542",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP8",
+        "message": "Heat Pump Installation | Are there suitable condensate management arrangements? (HP8) | ScoreBucket: MINOR_WONT",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "No suitable condensate management arrangements"
+      }
+    },
+    {
+      "questionKey": "543",
+      "enabled": true,
+      "nonCompliantWhen": { "op": "equals", "value": "No", "caseInsensitive": true, "trim": true },
+      "finding": {
+        "severity": "Minor",
+        "code": "MINOR_WONT|HP7",
+        "message": "Isolator not easily accessible and/or not correctly positioned",
+        "majorNonCompliantText": null,
+        "minorNonCompliantText": "Isolator is not easily accessible and position does not meet manufacturer requirements"
+      }
     }
   ],
   "ignoreQuestionKeys": [
