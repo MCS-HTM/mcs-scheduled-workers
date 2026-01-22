@@ -1,0 +1,12 @@
+{
+  "inputPath": "C:\\Users\\HarryMelia\\Downloads\\Full lodgement and Property Owner Details by Measure (3).csv",
+  "outDir": "C:\\Users\\HarryMelia\\OneDrive - MCS\\Documents\\mcs-scheduled-workers\\functions\\out",
+  "outCsvPath": "C:\\Users\\HarryMelia\\OneDrive - MCS\\Documents\\mcs-scheduled-workers\\functions\\out\\Processed_Trustmark_20260119_0944.csv",
+  "totalRows": 399,
+  "uniqueCertificates": 331,
+  "processed": 331,
+  "errored": 0,
+  "updated": 331,
+  "verifiers": 13,
+  "geocodeCacheSize": 166
+}

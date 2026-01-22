@@ -11,9 +11,14 @@
   "dependencies": {
     "@azure/identity": "^4.4.1",
     "@azure/keyvault-secrets": "^4.10.0",
-    "mssql": "^10.0.1"
+    "csv-parse": "^6.1.0",
+    "mssql": "^10.0.1",
+    "p-limit": "^3.1.0"
   },
   "devDependencies": {
     "azurite": "^3.35.0"
+  },
+  "scripts": {
+    "trustmark:process": "node src/jobs/trustmark-process.js"
   }
 }
